@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-17T23:06:04 EET" name="Default suite" finished-at="2024-08-17T23:07:35 EET" duration-ms="91371">
+    <groups>
+      <group name="Smoke">
+        <method signature="FormPageValidationTests.FormAlertValidation()[pri:1, instance:Tests.FormPageValidationTests@76b1e9b8]" name="FormAlertValidation" class="Tests.FormPageValidationTests"/>
+        <method signature="FormPageValidationTests.FormPositiveScenario(java.util.HashMap)[pri:2, instance:Tests.FormPageValidationTests@76b1e9b8]" name="FormPositiveScenario" class="Tests.FormPageValidationTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-08-17T23:06:04 EET" name="Default test" finished-at="2024-08-17T23:07:35 EET" duration-ms="91371">
+      <class name="Tests.FormPageValidationTests">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:06:04 EET" name="ConfigureAppium" finished-at="2024-08-17T23:06:33 EET" duration-ms="29233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:06:33 EET" name="ReturnToHomePage" finished-at="2024-08-17T23:06:39 EET" duration-ms="5962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method signature="FormAlertValidation()[pri:1, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:06:39 EET" name="FormAlertValidation" finished-at="2024-08-17T23:06:43 EET" duration-ms="3948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormAlertValidation -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:06:44 EET" name="ReturnToHomePage" finished-at="2024-08-17T23:06:50 EET" duration-ms="5730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method signature="FormPositiveScenario(java.util.HashMap)[pri:2, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:06:50 EET" name="FormPositiveScenario" data-provider="dataFromJson" finished-at="2024-08-17T23:07:02 EET" duration-ms="12499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=tamer, Country=Bahrain}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormPositiveScenario -->
+        <test-method is-config="true" signature="ReturnToHomePage()[pri:0, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:07:02 EET" name="ReturnToHomePage" finished-at="2024-08-17T23:07:08 EET" duration-ms="5547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReturnToHomePage -->
+        <test-method signature="FormPositiveScenario(java.util.HashMap)[pri:2, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:07:08 EET" name="FormPositiveScenario" data-provider="dataFromJson" finished-at="2024-08-17T23:07:34 EET" duration-ms="26324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=medhat, Country=Egypt}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormPositiveScenario -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:Tests.FormPageValidationTests@76b1e9b8]" started-at="2024-08-17T23:07:34 EET" name="AfterTest" finished-at="2024-08-17T23:07:35 EET" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- Tests.FormPageValidationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
